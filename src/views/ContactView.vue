@@ -55,9 +55,9 @@
       <div class="col-12 col-sm-9 formDiv my-3 boxShadow">
         <div class="theForm">
             <div class="row">
-                <div class="col-12 testBorder">
+                <div class="col-12 ">
                     <p>Name</p>
-                    <input type="text" class="testBorder" placeholder="Enter your name...">
+                    <input type="text" placeholder="Enter your name...">
                 </div>
                 <div class="col-12">
                     <p>Surname</p>
@@ -84,11 +84,12 @@
 
 <style>
 .greenDiv {
-  width: 200px;
+  width: 280px;
   background-color: var(--mainDarkGreen);
   color: var(--mainCream);
   border-radius: 10px;
   box-shadow: 0px 0px 10px 10px var(--mainDarkGreen);
+  /* margin-inline: auto; */
   /* margin-block: 50px; */
   /* margin-inline-start: 20px; */
   /* NOTE: the margins mess w/ responsivity */
