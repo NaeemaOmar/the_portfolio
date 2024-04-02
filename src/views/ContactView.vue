@@ -72,4 +72,17 @@
   /*ALTERNATIVELY: use row w/ col-4 vs col-8. col-4 will have a green div w/ a margin 20px allround*/
   /* UPDATE: defs need to use row otherwise i'll need to use grids to get the stuff in 1 line */
 }
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: var(--mainDarkGreen);
+    box-shadow: 0px 0px 10px 4px var(--mainDarkGreen);
+}
+
+::placeholder{
+    color: var(--lightenedCream);
+}
+
+
 </style>

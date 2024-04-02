@@ -37,6 +37,7 @@ export default {
   --mainCream: #ffe49f;
   --white: #ffffff;
   --black: #000000;
+  --lightenedCream: #FFF5DC
 }
 
 .topMargin{
