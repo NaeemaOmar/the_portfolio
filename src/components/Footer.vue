@@ -1,5 +1,5 @@
 <template>
-    <div class="darkGreenBg theBorder theFooter">
+    <div class="darkGreenBg theBorder theFooter fixed-bottom">
         <p class="creamTxt mt-2">&copy Naeema Omar {{ theYear }}</p>
     </div>
 </template>

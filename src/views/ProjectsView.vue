@@ -79,13 +79,9 @@
 }
 
 .rowWidth{
-    width: 80%;
+    width: 100%;
     margin-inline: 2%;
     border-radius: 15px;
-}
-
-.projectsHolder{
-    /* margin-inline: 5%; */
 }
 
 .capstonePic{
