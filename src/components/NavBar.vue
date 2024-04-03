@@ -12,6 +12,7 @@
         <div class="navbar-nav">
             <router-link class="nav-link " to="/">Home</router-link> 
             <router-link class="nav-link" to="/about">About</router-link> 
+            <router-link class="nav-link" to="/testimonials">Testimonials</router-link> 
             <router-link class="nav-link" to="/contact">Contact me</router-link> 
         </div>
     </div>

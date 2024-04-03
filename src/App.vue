@@ -70,6 +70,9 @@ export default {
   background-image: radial-gradient(var(--mainCream), var(--mainDarkGreen));
 }
 
+.pgHeading{
+  margin-top: 0px;
+}
 .mainCreamBorder{
   border: solid;
   border-color: var(--mainCream);
@@ -78,6 +81,10 @@ export default {
 
 .creamTxt{
   color: var(--mainCream);
+}
+
+.boldTxt{
+  font-weight: 700;
 }
 
 #app {
