@@ -37,7 +37,42 @@ export default {
   --mainCream: #ffe49f;
   --white: #ffffff;
   --black: #000000;
-  --lightenedCream: #FFF5DC
+  --lightenedCream: #FFF5DC;
+  /* 
+COLORS
+secondaryBg = #F8FE70
+accentBg = #A4FE3E
+lighterCreamBg = #E8E252
+secondFavSecondary = #EED481
+secondFavAccent = #9ADB68
+*/
+  /* option 1 */
+  --secondary: #C7E493;
+  --accent:#77D761;
+  /* option 2 */
+  --second: #FDDB7E;
+  --accen: #FFF5DC;
+  /* option 3 */
+  --Secondary:#E1B18B ;
+  --Accent: #D8B166;
+  /* option 4 - current fav */
+  --secondary: #F8FE70; /*USED*/
+  --accent:#A4FE3E;   /*USED*/
+  /* option 5 - 2nd fav, softer/more muted than option 4 */
+  --secondary: #D3E38A;
+  --accent:#9ADB68; /*USED*/
+  /* option 6 */
+  --secondary: #D6CB98;
+  --accent: #B9C66F;
+  /* option 7 - 3rd fav*/
+  --secondary:#F6FE6C;
+  --accent:#B0FE4C;
+  /* option 8 - pink version*/
+  --secondary:#E59090;
+  --accent:#E85454;
+  /* option 9 */
+  --secondary:#EED481; /*USED*/
+  --accent:#E8E252; /*USED*/
 }
 
 .topMargin{
@@ -64,6 +99,10 @@ export default {
 .mainCreamBg{
   background-color: var(--mainCream);
   /* width: 90%; */
+}
+
+.blackBg{
+  background-color: var(--black);
 }
 
 .darkGreenBg-Gradient{
