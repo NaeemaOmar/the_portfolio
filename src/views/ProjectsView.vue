@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <h1>This is the projects view</h1>
-    <h1>!!!Responsivity is only a problem @ 300 and 700px!!!</h1>
-    <div  class="d-flex justify-content-around">
-        <div>
+  <div class="projectsBody">
+    <div  class="d-flex justify-content-around mainCreamBg">
+        <div class="projectsMT">
             <div class="row rowWidth darkGreenBg mx-auto">
                 <div class="col-12 projectsHeight">
                     Capstone div
@@ -36,7 +34,7 @@
                     </div>
                 </div> 
             </div>
-            <div class="row rowWidth mx-auto">
+            <div class="row projectsMB rowWidth mx-auto">
                 <div class="col-7 projectsHeight secondFavAccent">the neurons bazaar
                     <div>
                         <img class="capstonePic" src="https://i.ibb.co/m6JrT7y/TNBpic-no-Bg.png" alt="">
@@ -72,6 +70,18 @@
 </template>
 
 <style>
+.projectsBody {
+  /* width: 100%; */
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--mainCream);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+}
+
 .projectsHeight{
     height: 300px;
     border-radius: 15px;
@@ -114,6 +124,14 @@ button {
   background-color: var(--mainCream);
   border-radius: 10px;
   width: 80px;
+}
+
+.projectsMB{
+    margin-block-end: 100px;
+}
+
+.projectsMT{
+    margin-block-start: 50px;
 }
 
 </style>

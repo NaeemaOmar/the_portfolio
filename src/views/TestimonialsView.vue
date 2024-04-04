@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="testimonialsBody">
     <!-- <h1>This is the testimonials page</h1> -->
     <!-- <h1 class="display-1">LET THE CARD-FLIPPING BEGIN!!!!</h1> -->
     <div class="">
@@ -159,5 +159,17 @@ button {
 
 .nameHeight{
     height: 80px;
+}
+
+.testimonialsBody {
+  /* width: 100%; */
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--mainCream);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
 }
 </style>

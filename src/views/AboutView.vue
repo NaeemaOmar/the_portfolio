@@ -1,54 +1,192 @@
 <template>
-  <div class="mainCreamBg">
-    <h1>This is an about </h1>
-    <p>Is it tho</p>
-    <p>What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-Where can I get some?
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-5
-	paragraphs
-	words
-	bytes
-	lists
-	Start with 'Lorem
-ipsum dolor sit amet...'
-
-Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.
-There is a set of mock banners available here in three colours and in a range of standard banner sizes:
-BannersBannersBanners
-Donate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.
-Donate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF
-NodeJS Python Interface GTK Lipsum Rails .NET Groovy
-
-freestar
-The standard Lorem Ipsum passage, used since the 1500s
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-
-1914 translation by H. Rackham
-"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-
-Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-
-1914 translation by H. Rackham
-"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-
-help@lipsum.com
-Privacy Policy · </p>
+  <div class="aboutBody">
+    <div class="centerThisDiv testBorder mx-auto">
+      <h6>NOTE: any div w/ a fixed width less than 100% can get a mx-auto</h6>
+      <div class="row row1Margins">
+        <div class="col-4">
+          <div class="darkGreenBg imgDiv">
+            <img
+              class="mainCreamBg profilePic my-5"
+              src="https://i.ibb.co/3fwNCwS/My-Home-Pg-Pic-Bg-Square-Ver-no-Bg.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="mx-auto aboutHeadingtxtDiv darkGreenBg">
+            <div class="aboutHeadingTxt mx-auto">
+              <h1 class="blackTxt">
+                Hello, I am <span class="boldTxt darkGreentxt">Naeema Omar</span>,
+                an
+              </h1>
+              <h1>
+                aspiring
+                <span class="boldTxt darkGreentxt">software developer</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ROW 1 ends here -->
+      <!-- ROW 2 starts here -->
+      <div class="row row2Margins">
+        <div class="col-7">
+          <div class="breakLine"></div>
+          <div>
+            <h3 class="blackTxt leftAlignTxt">
+              I first developed an interest in a tech career in 2020 when covid
+              boredom lead me to begin learning
+              <span class="boldTxt darkGreentxt">python</span> and
+              <span class="boldTxt darkGreentxt">c++</span>. It was a great deal
+              of fun breaking down the program you would like to build into its
+              basic pieces before building it back up. seeing a completed product
+              that you know you built from scratch is really good for my pride and
+              confidence
+            </h3>
+          </div>
+          <div class="breakLine"></div>
+          <div class="row">
+            <div class="col-6">
+              <h3 class="blackTxt leftAlignTxt">
+                I would describe myself as some one who is passionate, very
+                curious and sociable. I enjoy long hikes, reading, learning and new
+                experiences.
+              </h3>
+              <a href="/contact">
+                <button class="creamTxt aboutPgBtn my-2">Get in touch with me</button>
+              </a>
+            </div>
+            <div class="col-6">
+              <div class="darkGreenBg creamTxt readingDiv mt-3">
+                <h3>Currently reading:</h3>
+                <p>Atomic Habits - James Clear</p>
+                <h3>Next on my list:</h3>
+                <p>Limitless - Jim Kwik</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="hikePicDiv darkGreenBg">
+            <img class="hikePic" src="https://i.ibb.co/dDknjkr/about-Pg-Pic.jpg" alt="">
+          </div>
+        </div>
+        <div class="antiFooterMargin transparentTxt">
+          h
+        </div>
+      </div>
+      <!-- ROW 2 ends here -->
+    </div>
   </div>
 </template>
+
+  <!-- Hiking pic =  https://i.ibb.co/dDknjkr/about-Pg-Pic.jpg -->
+  <!-- Profile pic - square version = https://i.ibb.co/3fwNCwS/My-Home-Pg-Pic-Bg-Square-Ver-no-Bg.png -->
+  <!-- Square geometric bg = https://i.ibb.co/cv3p3NM/square-Geo-Bg.png -->
+
+<style>
+.aboutBody {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: var(--mainCream);
+}
+
+.imgDiv {
+  border-radius: 50px;
+  width: 70%;
+}
+
+.transparentTxt {
+  color: rgba(0, 0, 0, 0);
+}
+
+.profilePic {
+  border-radius: 50px;
+  width: 80%;
+}
+
+.geoBg {
+  background-image: url("https://i.ibb.co/cv3p3NM/square-Geo-Bg.png");
+  background-size: cover;
+}
+
+.row1Margins {
+  margin-top: 150px;
+  margin-inline: 50px;
+}
+
+.row2Margins {
+  margin-inline: 50px;
+}
+
+.aboutHeadingTxt {
+  background-color: var(--mainCream);
+  border-radius: 50px;
+  margin-block: 50px;
+  margin-inline: 30px;
+  width: fit-content;
+  padding-block: 15px;
+  padding-inline: 20px;
+}
+
+.aboutHeadingtxtDiv {
+  border-radius: 50px;
+  height: fit-content;
+  margin-block-start: 6%;
+  width: fit-content;
+  /* margin-inline: auto; */
+  margin-inline-end: 0%;
+  border-color: darkgoldenrod;
+  padding-inline: 50px;
+  padding-block: 5px;
+}
+
+.breakLine {
+  background-color: var(--mainDarkGreen);
+  height: 10px;
+  width: 75%;
+  margin-block: 50px;
+  margin-inline: auto;
+}
+
+.readingDiv{
+  border-radius: 50px;
+  width: fit-content;
+  padding-inline: 30px;
+  padding-block: 10px;
+  box-shadow: 0px 0px 10px 10px var(--mainDarkGreen); 
+}
+
+.hikePic{
+  height: 530px;
+  border-radius: 50px;
+}
+
+.hikePicDiv{
+  width: fit-content;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.antiFooterMargin{
+  height: 100px;
+}
+
+.aboutPgBtn{
+  background-color: var(--mainDarkGreen);
+  width: fit-content;
+  border-radius: 50px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px 10px var(--mainDarkGreen); 
+  border: none;
+  color: var(--mainCream);
+}
+
+.centerThisDiv{
+  width: 95%;
+  padding: 0;
+  margin: 0;
+}
+
+</style>

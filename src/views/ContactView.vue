@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contactBody">
     <h1>This is the contact pg</h1>
     <div class="row d-flex justify-content-around">
       <!-- GREEN DIV starts here -->
@@ -83,6 +83,17 @@
 </template>
 
 <style>
+.contactBody {
+  /* width: 100%; */
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--mainCream);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+}
 .greenDiv {
   width: 280px;
   background-color: var(--mainDarkGreen);

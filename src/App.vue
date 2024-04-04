@@ -4,7 +4,7 @@
     <router-link to="/about">About</router-link>
   </nav> -->
     <NavBar />
-      <div class="mainCreamBg mx-auto topMargin">
+      <div class="mx-auto topMargin">
         <router-view />
         <Footer />
       </div>
@@ -75,6 +75,10 @@ secondFavAccent = #9ADB68
   --accent:#E8E252; /*USED*/
 }
 
+html {
+  background-color: var(--mainCream);
+}
+
 .topMargin{
   margin-top: 92px;
 }
@@ -96,13 +100,33 @@ secondFavAccent = #9ADB68
   background-color: var(--mainDarkGreen);
 }
 
+.darkGreentxt{
+  color: var(--mainDarkGreen);
+}
+
 .mainCreamBg{
   background-color: var(--mainCream);
   /* width: 90%; */
 }
 
+.lightenedCreamBg{
+  background-color: var(--lightenedCream);
+}
+
+.leftAlignTxt{
+  text-align: start;
+}
+
 .blackBg{
   background-color: var(--black);
+}
+
+.blackTxt{
+  color: var(--black);
+}
+
+.whiteTxt{
+  color: var(--white);
 }
 
 .darkGreenBg-Gradient{
@@ -145,5 +169,6 @@ nav a {
 
 nav a.router-link-exact-active {
   color: var(--mainCream);
+  font-weight: 800;
 }
 </style>
