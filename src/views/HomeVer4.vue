@@ -2,7 +2,7 @@
   <div class="theeBody">
     <h1 class="transparentTxt">This is home version 4</h1>
     <div class="row rowWidth rowHeight">
-      <div class="col-12 col-sm-5 d-flex align-items-center">
+      <div class="col-12 col-md-5 d-flex align-items-center">
         <img
           class="plainLogoN mx-auto"
           src="https://i.ibb.co/VMsJqvP/plain-Logo-Txt.png"

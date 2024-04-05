@@ -117,6 +117,10 @@ html {
   text-align: start;
 }
 
+.centerAlignTxt{
+  text-align: center;
+}
+
 .blackBg{
   background-color: var(--black);
 }
