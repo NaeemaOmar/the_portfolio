@@ -1,98 +1,116 @@
 <template>
-  <div class="contactBody">
-    <h1>This is the contact pg</h1>
-    <div class="row d-flex justify-content-around">
-      <!-- GREEN DIV starts here -->
-      <div class="col-12 col-sm-3">
-        <div class="greenDiv my-5">
-          <h3>Get in touch</h3>
-          <div class="row">
-            <div class="col-12 col-sm-3">
-              <i class="fa-solid fa-location-dot fa-xl iconStyling"></i>            
-              </div>
-            <div class="col-12 col-sm-9">
-              <p>Bellville, Cape Town, 7530</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-sm-3">
-              <i class="fa-solid fa-envelope fa-xl iconStyling"></i>            
-              </div>
-            <div class="col-12 col-sm-9">
-              <p>naeemaomar19@gmail.com</p>
-            </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col-12 d-flex justify-content-around">
-              <i class="fa-solid fa-phone-volume fa-xl iconStyling"></i>
-              <i class="fa-brands fa-square-whatsapp fa-2xl iconStyling"></i>  
-              <!-- <i class="fa-brands fa-whatsapp fa-xl"></i>           -->
-              </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col-12">
-              <p>071 000 000</p>
-            </div>
-          </div>
-          <div class="line"></div>
-          <p class="mt-3">Links:</p>
-          <div class="row">
-            <div class="col-12 col-sm-6 d-flex justify-content-around">
-              <a href="/">
-                <i class="fa-brands fa-linkedin fa-2xl iconStyling"></i>
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 d-flex justify-content-around">
-              <a href="/about">
-                <i class="fa-brands fa-square-github fa-2xl iconStyling"></i>
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <!-- FORM DIV starts here -->
-      <div class="col-12 col-sm-9 formDiv my-3 boxShadow">
-        <div class="theForm">
-            <div class="row">
-                <div class="col-12 ">
-                    <p>Name</p>
-                    <input type="text" placeholder="Enter your name...">
-                </div>
-                <div class="col-12">
-                    <p>Surname</p>
-                    <input type="text" placeholder="Enter your surname...">
-                </div>
-            </div>
-            <div class="row">
+  <div class="contactBody mainCreamBg">
+    <h1 class="transparentTxt">This is the contact pg</h1>
+    <!-- 3rd attempt @ styling starts here -->
+    <div class="row mx-5">
+      <div class="col-12 darkGreenBg mainLeftDiv">
+        <h1 class="creamTxt display-4 boldTxt">Get in touch with me:</h1>
+        <div class="row">
+          <div class="col-12 col-xl-5 creamTxt">
+            <!-- the 3 rows (location, email & phone) start here -->
+            <div class="row my-4">
               <div class="col-12">
-                <p>Email</p>
-                <input type="text" class="emailInput" placeholder="Enter your email address...">
+                <div class="row">
+                  <div class="col-2">
+                    <i class="fa-solid fa-location-dot fa-xl"></i>
+                  </div>
+                  <div class="col-10">
+                    <p>Bellville, Cape Town, 7530</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2">
+                    <i class="fa-solid fa-envelope fa-xl"></i>
+                  </div>
+                  <div class="col-10">
+                    <p>naeemaomar19@gmail.com</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2">
+                    <i class="fa-brands fa-square-whatsapp fa-2xl"></i>
+                  </div>
+                  <div class="col-10">
+                    <p>(+277) 70 000 000</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- the 3 rows (location, email & phone) end here -->
+            <!-- MAP EMBEDDING starts here -->
             <div class="row">
-              <div class="col-12">
-                <p>Your message</p>
-                <input type="text" class="msgBox" placeholder="Enter your message...">
+              <div class="col-lg-8 col-xl-12">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61164.93243220097!2d18.58679401879199!3d-33.88223025081273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5a7c88f4a7c5%3A0xddfdc69775a78922!2sBellville%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1712310146758!5m2!1sen!2sza"
+                  width="600"
+                  height="450"
+                  allowfullscreen="true"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="creamBoxShadow mb-4 mx-auto embeddedMap"
+                ></iframe>
               </div>
             </div>
+            <!-- MAP EMBEDDING ends here -->
+          </div>
+          <div class="col-12 col-xl-7 creamTxt">
+            <h1 class="mx-auto mt-4 mb-5">
+              Alternatively, complete the form below
+            </h1>
+            <div class="row formRow">
+              <!-- FORM DIV starts here -->
+              <div class="col-12 formDiv my-3 creamBoxShadow mt-5">
+                <div class="">
+                  <div class="row">
+                    <div class="col-12 col-sm-6">
+                      <p>Name</p>
+                      <input type="text" placeholder="Enter your name..." />
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <p>Surname</p>
+                      <input type="text" placeholder="Enter your surname..." />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <p>Email</p>
+                      <input
+                        type="text"
+                        class="emailInput"
+                        placeholder="Enter your email address..."
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <p>Your message</p>
+                      <input
+                        type="text"
+                        class="msgBox"
+                        placeholder="Enter your message..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- FORM DIV ends here -->
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <!-- 3rd attempt @ styling ends here -->
   </div>
 </template>
 
+<!-- pink shirt + abaya dress, no Bg = https://i.ibb.co/zS4m0s2/Abaya-Pink-Shirt-Pic-no-Bg.png -->
+
 <style>
 .contactBody {
-  /* width: 100%; */
   height: 100vh;
   padding: 0;
   margin: 0;
   background-color: var(--mainCream);
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* background-attachment: fixed; */
 }
 .greenDiv {
   width: 280px;
@@ -109,47 +127,73 @@
   /* UPDATE: defs need to use row otherwise i'll need to use grids to get the stuff in 1 line */
 }
 
-.boxShadow{
+.boxShadow {
   box-shadow: 0px 0px 10px 10px var(--mainDarkGreen);
   /* use the full row boxShadow as an effect in the home/about page(s) */
   border-radius: 10px;
 }
 
-.line{
+.creamBoxShadow {
+  box-shadow: 0px 0px 10px 10px var(--mainCream);
+  /* use the full row boxShadow as an effect in the home/about page(s) */
+  border-radius: 10px;
+}
+
+.mainLeftDiv {
+  box-shadow: 0px 0px 10px 10px var(--mainDarkGreen);
+}
+
+.line {
   border: solid;
   border-color: var(--mainCream);
   border-radius: 2px;
   border-width: 2px;
 }
 
-input{
-  width: 260px;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--mainDarkGreen);
-    box-shadow: 0px 0px 10px 4px var(--mainDarkGreen);
+input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--mainDarkGreen);
+  box-shadow: 0px 0px 10px 4px var(--mainCream);
+  margin-block-end: 25px;
 }
 
-.emailInput{
-  width: 260px;
+.emailInput {
+  width: 100%;
 }
 
-::placeholder{
-    color: var(--lightenedCream);
+::placeholder {
+  color: var(--lightenedCream);
 }
 
-.iconStyling{
+.iconStyling {
   color: var(--mainCream);
   /* background-color: var(--mainCream); */
 }
 
-.msgBox{
+.msgBox {
   height: 100px;
-  width: 260px;
+  width: 100%;
 }
 
-.formDiv{
+/* .formDiv {
   max-width: 290px;
+} */
+
+.picItself {
+  width: 100%;
+  margin-block: 0px;
+  /* padding-block: 100px; */
+}
+
+.iconRow {
+  height: 120px;
+}
+
+.embeddedMap{
+  min-width: 90%;
+  max-width: 2px;
 }
 
 </style>

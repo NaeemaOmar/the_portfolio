@@ -17,7 +17,9 @@
             <!-- <router-link class="nav-link" to="/home5">Home 5</router-link>  -->
             <router-link class="nav-link" to="/about">About</router-link> 
             <router-link class="nav-link" to="/projects">Projects</router-link> 
-            <router-link class="nav-link" to="/resume">Resume</router-link> 
+            <router-link class="nav-link" to="/eduExp">Education</router-link> 
+            <router-link class="nav-link" to="/eduExp">Work Experience</router-link> 
+            <!-- <router-link class="nav-link" to="/resume">Resume</router-link>  -->
             <router-link class="nav-link" to="/testimonials">Testimonials</router-link> 
             <!-- <router-link class="nav-link" :to="{path: '/testimonials', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
             <!-- Above link works when the pages are together -->

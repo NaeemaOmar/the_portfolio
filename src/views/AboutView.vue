@@ -1,7 +1,6 @@
 <template>
   <div class="aboutBody">
-    <div class="centerThisDiv testBorder mx-auto">
-      <h6>NOTE: any div w/ a fixed width less than 100% can get a mx-auto</h6>
+    <div class="centerThisDiv mx-auto">
       <div class="row row1Margins">
         <div class="col-4">
           <div class="darkGreenBg imgDiv">
