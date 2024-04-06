@@ -13,6 +13,7 @@
             <router-link class="nav-link" to="/">Home</router-link> 
             <router-link class="nav-link" to="/home2">Home 2</router-link> 
             <router-link class="nav-link" to="/home3">Home 3</router-link> 
+            <router-link class="nav-link" to="/home4">Home 4</router-link> 
             <router-link class="nav-link" to="/about">About</router-link> 
             <router-link class="nav-link" to="/projects">Projects</router-link> 
             <router-link class="nav-link" to="/testimonials">Testimonials</router-link> 
