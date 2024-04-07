@@ -9,7 +9,7 @@
           alt=""
         />
       </div>
-      <div class="col-12 col-sm-7 creamBoxShadow d-flex align-items-center">
+      <div class="col-12 col-sm-7 d-flex align-items-center">
         <div class="txtDiv mx-auto">
             <h1 class="creamTxt darkGreenBg mt-5 welcomeTxt">
               Hi, I'm Naeema Omar
