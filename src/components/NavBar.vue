@@ -25,6 +25,7 @@
             <!-- Above link works when the pages are together -->
             <!-- <router-link class="nav-link" :to="{path: '/about', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
             <!-- The above works as well -->
+            <router-link class="nav-link" to="/tester">tester</router-link> 
             <router-link class="nav-link" to="/contact">Contact me</router-link> 
         </div>
     </div>
