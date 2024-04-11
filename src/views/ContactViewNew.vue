@@ -161,8 +161,6 @@
   .mainLeftDiv {
     box-shadow: 0px 0px 20px 20px var(--mainDarkGreen);
     /* width: 40vh; */
-    border: dotted;
-    border-color: brown;
     /* height: 100px; */
     margin-block-start: 400px;
     /* margin-bottom: 400px; */

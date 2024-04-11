@@ -3,69 +3,90 @@
     <div class="container-fluid">
       <!-- <a class="navbar-brand creamTxt" href="/">myPortfolio</a> -->
       <a class="navbar-brand creamTxt" href="/">
-          <img class="navBrandLogo"  src="https://i.ibb.co/chmpqKF/reSized.png" alt="">
+        <img
+          class="navBrandLogo"
+          src="https://i.ibb.co/chmpqKF/reSized.png"
+          alt=""
+        />
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon mainCreamBorder"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="navbar-nav">
-              <!-- <router-link class="nav-link" to="/">Home</router-link> 
-              <router-link class="nav-link" to="/home2">Home 2</router-link> 
-              <router-link class="nav-link" to="/home3">Home 3</router-link>  -->
-              <router-link class="nav-link" to="/">Home final</router-link> 
-              <!-- <router-link class="nav-link" to="/home5">Home 5</router-link>  -->
-              <router-link class="nav-link" to="/about">About</router-link> 
-              <router-link class="nav-link" to="/projects">Projects</router-link> 
-              <router-link class="nav-link" to="/eduExp">Education</router-link> 
-              <router-link class="nav-link" to="/eduExp">Work Experience</router-link> 
-              <router-link class="nav-link" to="/resume">Resume</router-link> 
-              <router-link class="nav-link" to="/testimonials">Testimonials</router-link> 
-              <!-- <router-link class="nav-link" :to="{path: '/testimonials', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
-              <!-- Above link works when the pages are together -->
-              <!-- <router-link class="nav-link" :to="{path: '/about', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
-              <!-- The above works as well -->
-              <router-link class="nav-link" to="/contact">Contact me</router-link> 
-              <router-link class="nav-link" to="/contactnew">ContactNew</router-link> 
-          </div>
+        <div class="navbar-nav">
+          <!-- <router-link class="nav-link" to="/">Home</router-link> 
+                <router-link class="nav-link" to="/home2">Home 2</router-link> 
+                <router-link class="nav-link" to="/home3">Home 3</router-link>  -->
+          <router-link class="nav-link" to="/">Home final</router-link>
+          <!-- <router-link class="nav-link" to="/home5">Home 5</router-link>  -->
+          <router-link class="nav-link" to="/about">About</router-link>
+          <router-link class="nav-link" to="/projects">Projects</router-link>
+          <router-link class="nav-link" to="/eduExp">Education</router-link>
+          <router-link class="nav-link" to="/eduExp">Work Experience</router-link>
+          <router-link class="nav-link" to="/eduExpNew">Education - New</router-link>
+          <router-link class="nav-link" to="/eduExpNew">Education, Employment and Skills - New</router-link>
+          <!-- <router-link class="nav-link" :to="{path: '/eduExpNew', hash:'#employment'}">Employment - ID version</router-link>  -->
+          <!-- The above took me to the correct page but not the correct id -->
+          <!-- <a class="nav-link" href="/eduExpNew#employment">Employment @ skills - ID version</a> -->
+          <!-- The above took me to the correct page but not the correct id -->
+          <!-- <router-link
+            class="nav-link"
+            :to="{ path: '/eduExpNew', hash: '#employment' }"
+            >Employment @skills ver 2 - ID version</router-link
+          > -->
+          <!-- The above took me to the correct page but not the correct id -->
+          <!-- <a href="/eduExpNew#employment">Employment version 4</a> -->
+          <!-- NOTE TO SELF: all attempts to go to specific ID are not working -->
+          <router-link class="nav-link" to="/resume">Resume</router-link>
+          <router-link class="nav-link" to="/testimonials"
+            >Testimonials</router-link
+          >
+          <!-- <router-link class="nav-link" :to="{path: '/testimonials', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
+          <!-- Above link works when the pages are together -->
+          <!-- <router-link class="nav-link" :to="{path: '/about', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
+          <!-- The above works as well -->
+          <router-link class="nav-link" to="/contact">Contact me</router-link>
+          <router-link class="nav-link" to="/contactnew"
+            >ContactNew</router-link
+          >
+        </div>
       </div>
     </div>
   </nav>
-    </template>
-    
-    <script>
-  //   export default {
-  //     name: "NavBar"
-  //   }
-    </script>
-    
-    <style>
-  .creamTxt{
-    color: var(--mainCream);
-  }
-  .navBrandLogo{
-    width: 100px;
-    border-radius: 5%;
-  }
-  
-  .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffe49f' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-        /* The above changes the color of the burger icon of the navbar */
-        /* stroke-width='2' --> width in px of each line in the burger */
-        /* width='30' height='30' --> width and height of burger menu */
-        /* %3csvg xmlns='http://www.w3.org/2000/svg' --> original svg */
-        width: 35px;
-      }
-  
-      /* LOGO IMG LINKS
-      "https://i.ibb.co/2v3nPFK/logo-Option-ONE.png"
-      "https://i.ibb.co/BTQVV8T/logo-Option-A.png"
-      "https://i.ibb.co/VMsJqvP/plain-Logo-Txt.png"
-      "https://i.ibb.co/RD2K2Cn/geometric-Bg.png"
-      "https://i.ibb.co/dt7Vk1c/favImg.png" --> fav logo
-      "https://i.ibb.co/chmpqKF/reSized.png" --> reSized favLogo
-      */
-  
-    </style>
-  
-              
+</template>
+
+<style>
+.creamTxt {
+  color: var(--mainCream);
+}
+.navBrandLogo {
+  width: 100px;
+  border-radius: 5%;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffe49f' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  /* The above changes the color of the burger icon of the navbar */
+  /* stroke-width='2' --> width in px of each line in the burger */
+  /* width='30' height='30' --> width and height of burger menu */
+  /* %3csvg xmlns='http://www.w3.org/2000/svg' --> original svg */
+  width: 35px;
+}
+
+/* LOGO IMG LINKS
+        "https://i.ibb.co/2v3nPFK/logo-Option-ONE.png"
+        "https://i.ibb.co/BTQVV8T/logo-Option-A.png"
+        "https://i.ibb.co/VMsJqvP/plain-Logo-Txt.png"
+        "https://i.ibb.co/RD2K2Cn/geometric-Bg.png"
+        "https://i.ibb.co/dt7Vk1c/favImg.png" --> fav logo
+        "https://i.ibb.co/chmpqKF/reSized.png" --> reSized favLogo
+        */
+</style>
