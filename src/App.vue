@@ -146,6 +146,10 @@ html {
   border-radius: 5px ;
 }
 
+.borderRadius50px{
+  border-radius: 50px;
+}
+
 .creamTxt{
   color: var(--mainCream);
 }
