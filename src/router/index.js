@@ -22,6 +22,11 @@ const routes = [
     name: 'home',
     component: () => import( '../views/HomeVer4.vue')
   },
+  {
+    path: '/homeAnime',
+    name: 'homeAnime',
+    component: () => import( '../views/HomeAnime.vue')
+  },
   // {
   //   path: '/home5',
   //   name: 'home5',
@@ -31,6 +36,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: () => import( '../views/AboutView.vue')
+  },
+  {
+    path: '/aboutNew',
+    name: 'aboutNew',
+    component: () => import( '../views/AboutViewNew.vue')
   },
   {
     path: '/contact',

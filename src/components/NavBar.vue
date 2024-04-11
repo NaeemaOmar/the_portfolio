@@ -26,8 +26,10 @@
                 <router-link class="nav-link" to="/home2">Home 2</router-link> 
                 <router-link class="nav-link" to="/home3">Home 3</router-link>  -->
           <router-link class="nav-link" to="/">Home final</router-link>
+          <router-link class="nav-link" to="/homeAnime">Home Anime ver</router-link>
           <!-- <router-link class="nav-link" to="/home5">Home 5</router-link>  -->
           <router-link class="nav-link" to="/about">About</router-link>
+          <router-link class="nav-link" to="/aboutNew">About - New</router-link>
           <router-link class="nav-link" to="/projects">Projects</router-link>
           <router-link class="nav-link" to="/eduExp">Education</router-link>
           <router-link class="nav-link" to="/eduExp">Work Experience</router-link>
