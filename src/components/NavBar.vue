@@ -48,9 +48,8 @@
           <!-- <a href="/eduExpNew#employment">Employment version 4</a> -->
           <!-- NOTE TO SELF: all attempts to go to specific ID are not working -->
           <router-link class="nav-link" to="/resume">Resume</router-link>
-          <router-link class="nav-link" to="/testimonials"
-            >Testimonials</router-link
-          >
+          <router-link class="nav-link" to="/testimonials">Testimonials</router-link>
+          <router-link class="nav-link" to="/testimonialsNew">Testimonials - New</router-link>
           <!-- <router-link class="nav-link" :to="{path: '/testimonials', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
           <!-- Above link works when the pages are together -->
           <!-- <router-link class="nav-link" :to="{path: '/about', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
