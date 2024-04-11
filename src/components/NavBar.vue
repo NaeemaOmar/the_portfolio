@@ -68,37 +68,4 @@
   
     </style>
   
-              <!-- <li class="nav-item">
-                <router-link to="/resume">Resume</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link to="/projects">Projects</router-link> 
-            </li>
-            <li class="nav-item">
-                <router-link to="/testimonials">Testimonials</router-link> 
-            </li>
-            <li class="nav-item">
-                <router-link to="/contact">Contact</router-link> 
-            </li> -->
-    
-    <!-- <template>
-        <nav>
-            <a>
-                <router-link class="navbar-brand" to="/">MyPortfolio</router-link> 
-            </a>
-            <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link> |
-            <router-link to="/resume">Resume</router-link> |
-            <router-link to="/projects">Projects</router-link> |
-            <router-link to="/testimonials">Testimonials</router-link> |
-            <router-link to="/contact">Contact</router-link> |
-        </nav>
-    </template>
-    
-    <script>
-    
-    </script>
-    
-    <style>
-    
-    </style> -->
+              
