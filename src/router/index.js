@@ -17,13 +17,13 @@ const routes = [
   //   name: 'home3',
   //   component: () => import( '../views/HomeVer3.vue')
   // },
+  // {
+  //   path: '/',
+  //   name: 'home',
+  //   component: () => import( '../views/HomeVer4.vue')
+  // },
   {
     path: '/',
-    name: 'home',
-    component: () => import( '../views/HomeVer4.vue')
-  },
-  {
-    path: '/homeAnime',
     name: 'homeAnime',
     component: () => import( '../views/HomeAnime.vue')
   },

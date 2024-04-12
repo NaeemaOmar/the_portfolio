@@ -26,7 +26,7 @@
                 <router-link class="nav-link" to="/home2">Home 2</router-link> 
                 <router-link class="nav-link" to="/home3">Home 3</router-link>  -->
           <!-- <router-link class="nav-link" to="/">Home final</router-link> -->
-          <router-link class="nav-link" to="/homeAnime">Home</router-link>
+          <router-link class="nav-link" to="/">Home</router-link>
           <!-- <router-link class="nav-link" to="/home5">Home 5</router-link>  -->
           <!-- <router-link class="nav-link" to="/about">About</router-link> -->
           <router-link class="nav-link" to="/aboutNew">About</router-link>
