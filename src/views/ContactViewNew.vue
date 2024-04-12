@@ -30,7 +30,7 @@
                     <i class="fa-brands fa-square-whatsapp fa-2xl"></i>
                   </div>
                   <div class="col-10">
-                    <p>(+277) 70 000 000</p>
+                    <p>(+27) 63 192 0019</p>
                   </div>
                 </div>
               </div>

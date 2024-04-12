@@ -63,7 +63,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 projectsHeight secondFavSecondary">
+            <div class="col-4 projectsHeight blackBg">
               <div class="container">
                 <img
                   class="capstonePic mt-4"
@@ -91,7 +91,7 @@
             </div>
           </div>
           <div class="row rowWidth mx-auto">
-            <div class="col-4 projectsHeight lighterCreamBg">
+            <div class="col-4 projectsHeight blackBg">
               <div class="container">
                 <img
                   class="capstonePic mt-4"
@@ -171,7 +171,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-5 projectsHeight lighterCreamBg">
+            <div class="col-5 projectsHeight blackBg">
               <div class="container">
                 <img
                   class="capstonePic mt-4"
