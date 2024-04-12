@@ -3,7 +3,7 @@
         <h1 class="creamTxt darkGreenBg projectHeading darkgreenShadow">Projects I completed</h1>
       <div class="d-flex justify-content-around mainCreamBg">
         <div class="projectsMT">
-          <div class="row rowWidth darkGreenBg mx-auto">
+          <div class="row rowWidth accentBg mx-auto">
             <div class="col-12 projectsHeight">
               <!-- <h4 class="creamTxt">Hover over the image to learn more about the project</h4> -->
               <div class="container">
@@ -37,7 +37,7 @@
             </div>
           </div>
           <div class="row rowWidth mx-auto">
-            <div class="col-8 projectsHeight blackBg">
+            <div class="col-8 projectsHeight darkGreenBg">
               <div class="container">
                 <img
                   class="capstonePic mt-4"
@@ -145,7 +145,7 @@
             </div>
           </div>
           <div class="row projectsMB rowWidth mx-auto">
-            <div class="col-7 projectsHeight blackBg">
+            <div class="col-7 projectsHeight darkGreenBg">
               <div class="container">
                 <img
                   class="capstonePic mt-4"
