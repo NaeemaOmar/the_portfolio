@@ -34,7 +34,7 @@
           <router-link class="nav-link" to="/projectsNew">Projects</router-link>
           <!-- <router-link class="nav-link" to="/eduExp">Education</router-link>
           <router-link class="nav-link" to="/eduExp">Work Experience</router-link> -->
-          <router-link class="nav-link" to="/eduExpNew">Education</router-link>
+          <router-link class="nav-link" to="/eduExpNew">Education & Employment</router-link>
           <!-- <router-link class="nav-link" to="/eduExpNew">Education, Employment and Skills - New</router-link> -->
           <!-- <router-link class="nav-link" :to="{path: '/eduExpNew', hash:'#employment'}">Employment - ID version</router-link>  -->
           <!-- The above took me to the correct page but not the correct id -->
