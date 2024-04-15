@@ -26,7 +26,7 @@
           <router-link class="nav-link" to="/aboutNew">About</router-link>
           <router-link class="nav-link" to="/projectsNew">Projects</router-link>
           <router-link class="nav-link" to="/eduExpNew">Education & Employment</router-link>
-          <router-link class="nav-link" to="/testimonialsNew">Testimonials</router-link>
+          <router-link class="nav-link" to="/testimonialsNew">References</router-link>
           <router-link class="nav-link" to="/contactnew">Contact me</router-link>
         </div>
       </div>
