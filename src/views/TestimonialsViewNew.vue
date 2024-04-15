@@ -6,7 +6,7 @@
       <h1 class="display-5 boldTxt">Prompt: Who is Naeema...</h1>
     </div>
     <!-- CARD-FLIPPING STARTS HERE -->
-    <div class="row ">
+    <div class="row bottomSpace">
       <div
         v-for="person in this.$store.state.testimonialsArray"
         :key="person.name"
@@ -163,4 +163,9 @@ button {
   /* background-position: center; */
   /* background-attachment: fixed; */
 }
+
+.bottomSpace{
+  padding-bottom: 100px;
+}
+
 </style>
