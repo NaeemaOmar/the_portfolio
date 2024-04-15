@@ -22,12 +22,12 @@
     
     <!-- CODE FROM https://codepen.io/StephenScaff/details/oLBqmw ends here -->
             <div class="btnDiv d-flex justify-content-around">
-              <a href="/about">
+              <a href="/aboutNew">
                 <button class="mt-5 homePg4Btn">
                   <h3>About me</h3>
                 </button>
               </a>
-              <a href="/contact">
+              <a href="/contactnew">
                 <button class="mt-5 homePg4Btn">
                   <h3>Get in touch</h3>
                 </button>

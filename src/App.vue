@@ -104,6 +104,9 @@ html {
   color: var(--mainDarkGreen);
 }
 
+.darkgreenShadow{
+  box-shadow: 0px 0px 10px 10px var(--mainDarkGreen);
+}
 .mainCreamBg{
   background-color: var(--mainCream);
   /* width: 90%; */

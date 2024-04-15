@@ -54,7 +54,7 @@
                     curious and sociable. I enjoy long hikes, reading, learning and
                     new experiences.
                   </h3>
-                  <a href="/contact">
+                  <a href="/contactnew">
                     <button class="creamTxt aboutPgBtn mt-3">
                       Get in touch with me
                     </button>
