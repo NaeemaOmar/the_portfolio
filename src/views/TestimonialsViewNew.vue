@@ -6,14 +6,14 @@
       <h1 class="display-5 boldTxt">Prompt: Who is Naeema...</h1>
     </div>
     <!-- CARD-FLIPPING STARTS HERE -->
-    <div class="row">
+    <div class="row ">
       <div
-        v-for="person in this.$store.state.testimonialsRow1"
+        v-for="person in this.$store.state.testimonialsArray"
         :key="person.name"
-        class="col-12 col-sm-6 col-lg-4 "
+        class="col-12 col-sm-6 col-lg-4  "
       >
         <div class="card-container ">
-          <div class="card mx-auto">
+          <div class="card testimonialsRow ">
             <div class="card-inner ">
               <div class="card-front">
                 <div
@@ -29,45 +29,7 @@
                   What {{ person.name }} has to say:
                 </h5>
                 <p class="creamTxt testimonialItself my-4">{{ person.testimonial }}</p>
-                <!-- <a :href="person.portfolio" target="_blank">
-                  <button class="my-3">
-                    Learn more about {{ person.name }}
-                  </button>
-                </a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div
-        v-for="person in this.$store.state.testimonialsRow2"
-        :key="person.name"
-        class="col-12 col-sm-6 col-lg-4"
-      >
-        <div class="card-container">
-          <div class="card mx-auto">
-            <div class="card-inner">
-              <div class="card-front">
-                <div
-                  class="nameHeight d-flex justify-content-around align-items-center "
-                >
-                  <h2 class="creamTxt">{{ person.name }}:</h2>
-                </div>
-                <img class="personImg" :src="person.img" alt="" />
-                <h3 class="creamTxt mt-3">{{ person.relation }}</h3>
-              </div>
-              <div class="card-back">
-                <h5 class="creamTxt my-3 nameHeight d-flex justify-content-around align-items-center">
-                  What {{ person.name }} has to say:
-                </h5>
-                <p class="creamTxt testimonialItself my-4">{{ person.testimonial }}</p>
-                <!-- <a :href="person.portfolio" target="_blank">
-                  <button class="my-3">
-                    Learn more about {{ person.name }}
-                  </button>
-                </a> -->
+
               </div>
             </div>
           </div>
@@ -150,11 +112,11 @@ export default {
   transform: rotateY(180deg);
 }
 
-.centerCards{
-  border: dashed;
-  border-color: brown;
-  display: flex;
-  justify-content: space-between;
+.testimonialsRow{
+  margin-inline: auto;
+  padding-inline-end: 50px;
+  background-color: var(--mainCream);
+  border: none;
 }
 
 .testimonialItself{
