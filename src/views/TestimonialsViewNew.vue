@@ -10,9 +10,9 @@
       <div
         v-for="person in this.$store.state.testimonialsArray"
         :key="person.name"
-        class="col-12 col-sm-6 col-lg-4"
+        class=""
       >
-        <div class="card-container mx-5">
+        <div class="col-12 col-sm-6 col-lg-4 card-container mx-5">
           <div class="card">
             <div class="card-inner">
               <div class="card-front">
