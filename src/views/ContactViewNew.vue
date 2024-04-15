@@ -3,7 +3,7 @@
     class="contactBody mainCreamBg d-flex align-items-center justify-content-around"
   >
     <!-- 3rd attempt @ styling starts here -->
-    <div class="row mx-5 testBorder">
+    <div class="row mx-5 contactMarginBtm">
       <div class="col-12 darkGreenBg mainLeftDiv borderRadius50px">
         <h1 class="creamTxt display-4 boldTxt">Get in touch with me:</h1>
         <div class="row">
@@ -360,4 +360,12 @@ input {
   min-width: 90%;
   max-width: 2px;
 }
+
+.contactMarginBtm{
+  /* margin-block-end: 100px; */
+  padding-block-start: 150px;
+  padding-block-end: 120px;
+
+}
+
 </style>
