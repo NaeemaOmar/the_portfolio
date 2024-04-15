@@ -1,9 +1,11 @@
 <template>
-  <div class="contactBody mainCreamBg d-flex align-items-center justify-content-around">
+  <div
+    class="contactBody mainCreamBg d-flex align-items-center justify-content-around"
+  >
     <!-- 3rd attempt @ styling starts here -->
     <div class="row mx-5 testBorder">
       <div class="col-12 darkGreenBg mainLeftDiv borderRadius50px">
-        <h1 class="creamTxt display-4 boldTxt ">Get in touch with me:</h1>
+        <h1 class="creamTxt display-4 boldTxt">Get in touch with me:</h1>
         <div class="row">
           <div class="col-12 col-xl-5 creamTxt">
             <!-- the 3 rows (location, email & phone) start here -->
@@ -63,11 +65,21 @@
                   <div class="row">
                     <div class="col-12 col-sm-6">
                       <p>Name</p>
-                      <input type="text" placeholder="Name..." />
+                      <input
+                        class="creamTxt"
+                        type="text"
+                        placeholder="Name..."
+                        v-model="name"
+                      />
                     </div>
                     <div class="col-12 col-sm-6">
                       <p>Surname</p>
-                      <input type="text" placeholder="Surname..." />
+                      <input
+                        class="creamTxt"
+                        type="text"
+                        placeholder="Surname..."
+                        v-model="surname"
+                      />
                     </div>
                   </div>
                   <div class="row">
@@ -75,8 +87,9 @@
                       <p>Email</p>
                       <input
                         type="text"
-                        class="emailInput"
+                        class="emailInput creamTxt"
                         placeholder="Email..."
+                        v-model="emailAdd"
                       />
                     </div>
                   </div>
@@ -85,9 +98,65 @@
                       <p>Your message</p>
                       <input
                         type="text"
-                        class="msgBox"
+                        class="msgBox creamTxt"
                         placeholder="Good day..."
+                        v-model="msg"
                       />
+                    </div>
+                  </div>
+                </div>
+                <div class="row submitRow d-flex justify-content-around">
+                  <div class="col-3">
+                    <!-- <button class="darkGreenTxt boldTxt submitBtn" @click="clearInputs">Submit</button> -->
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn darkGreenTxt boldTxt submitBtn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop"
+                      @click="clearInputs"
+                    >
+                    Submit
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal  fade"
+                      id="staticBackdrop"
+                      data-bs-backdrop="static"
+                      data-bs-keyboard="false"
+                      tabindex="-1"
+                      aria-labelledby="staticBackdropLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content modalStyling ">
+                          <div class="modal-header">
+                            <h5 class="modal-title mx-auto" id="staticBackdropLabel">
+                              Thank you for getting in touch
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close mainCreamBg boldTxt"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            >X</button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="leftAlignTxt">You will receive a response within 3 to 5 business days.</p>
+                            <p class="leftAlignTxt">Enjoy the rest of your day!</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary closeModalBtn boldTxt"
+                              data-bs-dismiss="modal"
+                            >
+                              Understood
+                            </button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -95,22 +164,29 @@
               <!-- FORM DIV ends here -->
             </div>
             <!-- Socials row starts here -->
-            <div class="row mx-3 ">
+            <div class="row mx-3">
               <div class="col-12">
-                  <h1 class="mx-auto mt-4 mb-3">
+                <h1 class="mx-auto mt-4 mb-3">
                   ...or contact me via the socials below
                 </h1>
                 <div class="row my-3">
-                    <div class="col-4 mx-auto">
-                      <a href="https://www.linkedin.com/in/naeema-omar-7ab486299/" target="_blank">
-                          <i class="fa-brands fa-linkedin mx-3 fa-4x iconShadow"></i>
-                      </a>
-                    </div>
-                    <div class="col-4 mx-auto">
-                      <a href="https://github.com/NaeemaOmar" target="_blank">
-                          <i class="fa-brands fa-square-github mx-3 fa-4x iconShadow"></i>
-                      </a>
-                    </div>
+                  <div class="col-4 mx-auto">
+                    <a
+                      href="https://www.linkedin.com/in/naeema-omar-7ab486299/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa-brands fa-linkedin mx-3 fa-4x iconShadow"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="col-4 mx-auto">
+                    <a href="https://github.com/NaeemaOmar" target="_blank">
+                      <i
+                        class="fa-brands fa-square-github mx-3 fa-4x iconShadow"
+                      ></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -123,6 +199,27 @@
 </template>
 
 <!-- pink shirt + abaya dress, no Bg = https://i.ibb.co/zS4m0s2/Abaya-Pink-Shirt-Pic-no-Bg.png -->
+
+<script>
+export default {
+  data() {
+    return {
+      name: "",
+      surname: "",
+      emailAdd: "",
+      msg: "",
+    };
+  },
+  methods: {
+    clearInputs() {
+      this.name = null;
+      this.surname = null;
+      this.emailAdd = null;
+      this.msg = null;
+    },
+  },
+};
+</script>
 
 <style>
 .contactBody {
@@ -204,6 +301,39 @@ input {
   padding-inline: 10px;
 }
 
+.submitRow {
+  width: 100%;
+}
+
+.submitBtn {
+  height: 40px;
+  border: none;
+  box-shadow: 0px 0px 30px 1px var(--mainCream);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: var(--mainCream);
+}
+
+.modalStyling{
+  background-color: var(--mainDarkGreen);
+  box-shadow: 0px 0px 30px 10px var(--mainDarkGreen);
+
+}
+
+.closeModalBtn{
+  background-color: var(--mainCream);
+  box-shadow: 0px 0px 30px 10px var(--mainCream);
+  border-radius: 20px;
+  height: 50px;
+  color: var(--mainDarkGreen);
+}
+
+.btn-close{
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 30px 2px var(--mainCream);
+}
+
 .picItself {
   width: 100%;
   margin-block: 0px;
@@ -214,7 +344,7 @@ input {
   height: 120px;
 }
 
-.iconShadow{
+.iconShadow {
   box-shadow: 0px 0px 30px 7px var(--mainCream);
   border-radius: 10px;
   padding-inline: 5px;
@@ -226,9 +356,8 @@ input {
   padding-inline: 15%;
 } */
 
-.embeddedMap{
+.embeddedMap {
   min-width: 90%;
   max-width: 2px;
 }
-
 </style>
