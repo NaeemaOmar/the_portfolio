@@ -22,40 +22,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav">
-          <!-- <router-link class="nav-link" to="/">Home</router-link> 
-                <router-link class="nav-link" to="/home2">Home 2</router-link> 
-                <router-link class="nav-link" to="/home3">Home 3</router-link>  -->
-          <!-- <router-link class="nav-link" to="/">Home final</router-link> -->
           <router-link class="nav-link" to="/">Home</router-link>
-          <!-- <router-link class="nav-link" to="/home5">Home 5</router-link>  -->
-          <!-- <router-link class="nav-link" to="/about">About</router-link> -->
           <router-link class="nav-link" to="/aboutNew">About</router-link>
-          <!-- <router-link class="nav-link" to="/projects">Projects</router-link> -->
           <router-link class="nav-link" to="/projectsNew">Projects</router-link>
-          <!-- <router-link class="nav-link" to="/eduExp">Education</router-link>
-          <router-link class="nav-link" to="/eduExp">Work Experience</router-link> -->
           <router-link class="nav-link" to="/eduExpNew">Education & Employment</router-link>
-          <!-- <router-link class="nav-link" to="/eduExpNew">Education, Employment and Skills - New</router-link> -->
-          <!-- <router-link class="nav-link" :to="{path: '/eduExpNew', hash:'#employment'}">Employment - ID version</router-link>  -->
-          <!-- The above took me to the correct page but not the correct id -->
-          <!-- <a class="nav-link" href="/eduExpNew#employment">Employment @ skills - ID version</a> -->
-          <!-- The above took me to the correct page but not the correct id -->
-          <!-- <router-link
-            class="nav-link"
-            :to="{ path: '/eduExpNew', hash: '#employment' }"
-            >Employment @skills ver 2 - ID version</router-link
-          > -->
-          <!-- The above took me to the correct page but not the correct id -->
-          <!-- <a href="/eduExpNew#employment">Employment version 4</a> -->
-          <!-- NOTE TO SELF: all attempts to go to specific ID are not working -->
-          <!-- <router-link class="nav-link" to="/resume">Resume</router-link>
-          <router-link class="nav-link" to="/testimonials">Testimonials</router-link> -->
           <router-link class="nav-link" to="/testimonialsNew">Testimonials</router-link>
-          <!-- <router-link class="nav-link" :to="{path: '/testimonials', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
-          <!-- Above link works when the pages are together -->
-          <!-- <router-link class="nav-link" :to="{path: '/about', hash:'#testimonialsCards'}">Testimonials ID</router-link>  -->
-          <!-- The above works as well -->
-          <!-- <router-link class="nav-link" to="/contact">Contact me</router-link> -->
           <router-link class="nav-link" to="/contactnew">Contact me</router-link>
         </div>
       </div>
