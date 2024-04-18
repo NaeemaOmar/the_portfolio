@@ -7,8 +7,8 @@
         <h1 class="headingTxt">Education - New version</h1>
         <ul class="my-5">
           <li style="--accent-color: var(--mainCream)">
-            <div class="date">
-              <span class="darkGreenTxt">
+            <div class="date ">
+              <span class="darkGreenTxt ">
                   2023-2024
               </span>
           </div>
@@ -68,8 +68,8 @@
               <ul class="mt-3 greenBoxShadow p-5">
                 <li style="--accent-color: var(--mainDarkGreen)" class="mt-3">
                   <div class="date">2024-present</div>
-                  <div class="title leftAlignTxt">Title: Web Dev Intern</div>
-                  <div class="descr">
+                  <div class="title leftAlignTxt ">Title: Web Dev Intern</div>
+                  <div class="descr ">
                     <h6 class="leftAlignTxt">Employer: Life Choices</h6>
                     <h6 class="leftAlignTxt">
                       Reason for leaving: None, still employed

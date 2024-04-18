@@ -116,6 +116,10 @@ html {
   background-color: var(--lightenedCream);
 }
 
+.lightenedCreamTxt{
+  color: var(--lightenedCream);
+}
+
 .leftAlignTxt{
   text-align: start;
 }
@@ -149,6 +153,11 @@ html {
   border-radius: 5px ;
 }
 
+.mainCreamShadow{
+  box-shadow: 0px 0px 10px 10px var(--mainCream);
+
+}
+
 .borderRadius50px{
   border-radius: 50px;
 }
@@ -179,12 +188,19 @@ nav {
 }
 
 nav a {
-  font-weight: bold;
-  color: var(--black);
+  font-weight: 200;
+  color: var(--mainCream);
 }
 
 nav a.router-link-exact-active {
-  color: var(--mainCream);
-  font-weight: 800;
+  color: var(--lightenedCream);
+  font-weight: 900;
 }
+
+.nav-link:hover {
+  /* Hover color */
+  color: black; /* Set your hover color here */
+  /* Other CSS properties */
+}
+
 </style>
