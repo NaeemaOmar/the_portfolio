@@ -4,7 +4,7 @@
     <div class="row eduExpRow1MT mx-5">
         <div class="col-12 col-xl-6 darkGreenBg borderRadius50 mx-auto ">
         <!-- EDUCATION COL starts here -->
-        <h1 class="headingTxt">Education - New version</h1>
+        <h1 class="headingTxt">Education</h1>
         <ul class="my-5">
           <li style="--accent-color: var(--mainCream)">
             <div class="date ">
@@ -61,7 +61,7 @@
       </div>
       <!-- EMPLOYMENT COL starts here -->
       <div  class="col-12 randomMT">
-        <h1 class="headingTxt mb-5">Employment History - New version</h1>
+        <h1 class="headingTxt mb-5">Employment History</h1>
         <div>
           <div class="row">
             <div class="col-12 col-xl-8">
